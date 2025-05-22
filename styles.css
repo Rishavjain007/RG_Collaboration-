@@ -1,0 +1,22 @@
+body {
+  background: #f5f7fa;
+}
+
+.custom-card {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+}
+
+input {
+  font-size: 16px;
+}
+
+button {
+  min-width: 45%;
+}
+
+#result {
+  font-weight: 600;
+  font-size: 18px;
+}

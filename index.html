@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Calculator</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="Navbar bg-primary text-white p-4 text-center">
+    <h1>Simple Calculator</h1>
+  </div>
+
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card p-4 shadow rounded-4 custom-card">
+      <h5 class="card-title text-center mb-4 fw-bold">Calculator</h5>
+      <div class="mb-3">
+        <input type="number" id="inputOne" class="form-control mb-2" placeholder="Enter first number" />
+        <input type="number" id="inputTwo" class="form-control" placeholder="Enter second number" />
+      </div>
+      <div class="d-flex justify-content-between mb-3 flex-wrap gap-2">
+        <button id="btnAdd" class="btn btn-outline-primary flex-fill">Add</button>
+        <button id="btnSub" class="btn btn-outline-secondary flex-fill">Subtract</button>
+        <button id="btnMulti" class="btn btn-outline-success flex-fill">Multiply</button>
+        <button id="btnDiv" class="btn btn-outline-danger flex-fill">Divide</button>
+      </div>
+      <div id="result" class="alert alert-info text-center" role="alert">Result will appear here</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
